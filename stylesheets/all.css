@@ -1,0 +1,336 @@
+@charset "UTF-8";
+/* line 3, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+html {
+  min-height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background: #ff6d00;
+  background: -webkit-linear-gradient(top, #805050 0%, #cf3031 10px, #ffac1c 90px, rgba(255, 255, 255, 0) 260px);
+  background: -ms-linear-gradient(top, #805050 0%, #cf3031 10px, #ffac1c 90px, rgba(255, 255, 255, 0) 260px);
+  background: linear-gradient(to bottom, #805050 0%, #cf3031 10px, #ffac1c 90px, rgba(255, 255, 255, 0) 260px); }
+
+/* line 14, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+body {
+  box-sizing: border-box;
+  max-width: 80em;
+  margin: 40px auto 0em auto;
+  padding: 0em;
+  border-radius: 2em 2em 0em 0em;
+  box-shadow: 0px 0px 15px #000;
+  background: rgba(255, 255, 255, 0.7); }
+
+/* line 24, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+nav {
+  float: left;
+  width: 15em;
+  margin: -10px 0em 0em 2em;
+  background: rgba(255, 255, 255, 0.8);
+  background: -webkit-linear-gradient(top, rgba(20, 0, 0, 0.7) 0px, rgba(20, 0, 0, 0.7) 10px, rgba(20, 0, 0, 0) 0px), -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0) 10px, rgba(255, 255, 255, 0.5) 0px, rgba(255, 255, 255, 0.8) 100%);
+  background: -ms-linear-gradient(top, rgba(20, 0, 0, 0.7) 0px, rgba(20, 0, 0, 0.7) 10px, rgba(20, 0, 0, 0) 0px), -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0) 10px, rgba(255, 255, 255, 0.5) 0px, rgba(255, 255, 255, 0.8) 100%);
+  background: linear-gradient(to bottom, rgba(20, 0, 0, 0.7) 0px, rgba(20, 0, 0, 0.7) 10px, rgba(20, 0, 0, 0) 0px), linear-gradient(to bottom, rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0) 10px, rgba(255, 255, 255, 0.5) 0px, rgba(255, 255, 255, 0.8) 100%);
+  box-shadow: 0px 0px 8px #000; }
+  /* line 40, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+  nav ul {
+    margin: 0em;
+    padding: 0em;
+    margin: 0em;
+    font-weight: normal;
+    list-style: none; }
+  /* line 49, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+  nav > div > div > ul,
+  nav > ul {
+    /* for blogger */ }
+    /* line 50, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+    nav > div > div > ul > li,
+    nav > ul > li {
+      text-align: center;
+      font-weight: bolder;
+      font-size: larger;
+      line-height: 160%;
+      background: rgba(0, 0, 20, 0.8);
+      background: -webkit-linear-gradient(top, rgba(0, 0, 20, 0.9) 0px, rgba(0, 0, 20, 0.8) 1.6em, rgba(30, 30, 50, 0.6) 0px, rgba(30, 30, 50, 0.3) 100%);
+      background: -ms-linear-gradient(top, rgba(0, 0, 20, 0.9) 0px, rgba(0, 0, 20, 0.8) 1.6em, rgba(30, 30, 50, 0.6) 0px, rgba(30, 30, 50, 0.3) 100%);
+      background: linear-gradient(to bottom, rgba(0, 0, 20, 0.9) 0px, rgba(0, 0, 20, 0.8) 1.6em, rgba(30, 30, 50, 0.6) 0px, rgba(30, 30, 50, 0.3) 100%);
+      color: white; }
+      /* line 61, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+      nav > div > div > ul > li > ul,
+      nav > ul > li > ul {
+        list-style: circle;
+        font-size: medium;
+        text-align: left;
+        padding: 1em 1em 1em 2em;
+        line-height: 140%;
+        border: 1px solid #505050; }
+        /* line 69, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+        nav > div > div > ul > li > ul li,
+        nav > ul > li > ul li {
+          margin-left: 0.5em; }
+  /* line 76, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+  nav p {
+    text-align: center;
+    padding: 1em 0em 1em 0em; }
+    /* line 80, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+    nav p img {
+      width: 60%; }
+  /* line 85, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+  nav a {
+    color: white;
+    text-decoration: none; }
+
+/* line 91, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+h1 {
+  font-size: 3em;
+  color: black;
+  text-shadow: 0px 0px 15px white, 0px 0px 15px white, 0px 0px 15px white;
+  margin: 0em 0em 1em 0em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+
+/* line 101, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+article {
+  display: block;
+  padding-top: 2em;
+  padding-left: 21em;
+  padding-right: 3em;
+  padding-bottom: 4em; }
+  /* line 108, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+  article h2 {
+    margin-top: 3em;
+    margin-bottom: 1em;
+    padding: 0em; }
+  /* line 114, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+  article h3 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    padding: 0em; }
+  /* line 120, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+  article h4 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    padding: 0em; }
+  /* line 126, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+  article p {
+    line-height: 1.75em; }
+  /* line 130, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+  article li {
+    margin-top: 0.8em; }
+
+@media screen and (max-width: 60em) {
+  /* line 136, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+  body {
+    max-width: 100%;
+    width: 100%;
+    padding: 0em; }
+
+  /* line 142, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+  nav {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 0em;
+    background: rgba(255, 255, 255, 0.8);
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.6) 0px, rgba(255, 255, 255, 0.8) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.6) 0px, rgba(255, 255, 255, 0.8) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 0px, rgba(255, 255, 255, 0.8) 100%); }
+    /* line 154, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+    nav p img {
+      max-width: 100px; }
+
+  /* line 159, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+  article {
+    float: none;
+    display: block;
+    width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+    margin: 0em; } }
+/* line 169, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+ul#breadcrumb {
+  margin: 0em;
+  padding: 0em;
+  color: gray;
+  text-shadow: 0px 0px 15px white,0px 0px 15px white; }
+  /* line 175, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+  ul#breadcrumb li {
+    margin-left: 0em;
+    padding-left: 0em;
+    display: inline; }
+    /* line 180, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+    ul#breadcrumb li a {
+      text-decoration: none;
+      color: gray; }
+    /* line 185, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+    ul#breadcrumb li:after {
+      content: "　→　 "; }
+    /* line 189, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+    ul#breadcrumb li:last-child:after {
+      content: ""; }
+
+/* line 195, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+table#attr {
+  background: rgba(0, 0, 0, 0.03);
+  border: rgba(0, 0, 0, 0.1) solid 1px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  line-height: 170%; }
+  /* line 202, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+  table#attr th {
+    text-align: right;
+    white-space: nowrap;
+    padding: 0em 0.5em;
+    vertical-align: top;
+    width: 3em; }
+  /* line 210, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+  table#attr th:after {
+    content: "："; }
+  /* line 214, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+  table#attr td {
+    padding: 0em 0.5em; }
+  /* line 218, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+  table#attr ul {
+    display: inline;
+    padding-left: 0em; }
+  /* line 223, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+  table#attr li {
+    display: inline;
+    padding-left: 0em; }
+    /* line 227, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+    table#attr li:after {
+      content: "、"; }
+    /* line 231, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+    table#attr li:last-child:after {
+      content: ""; }
+
+/* line 237, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+footer {
+  clear: both;
+  padding: 0.5em;
+  text-align: center;
+  border-top: 2px solid #333;
+  border-bottom: 1px solid black;
+  color: white;
+  margin: 0em;
+  line-height: 100%;
+  background: rgba(10, 0, 20, 0.78);
+  box-shadow: 0px 0px 15px #000; }
+  /* line 249, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+  footer a {
+    text-decoration: none;
+    color: white; }
+
+/* line 255, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+body.index {
+  background: rgba(255, 255, 255, 0.7);
+  margin-top: 40px;
+  border-top: 5px solid black;
+  padding: 0em;
+  width: 100%;
+  max-width: 100%;
+  font-family: sans-serif; }
+  /* line 264, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+  body.index header {
+    margin: 0em;
+    padding: 0em; }
+  /* line 269, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+  body.index h1 {
+    padding: 40px 0em 0em 0em;
+    margin: 0em;
+    text-align: center;
+    border: none; }
+  /* line 276, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+  body.index article {
+    border-radius: 2em 2em 0em 0em;
+    width: 100%;
+    display: block;
+    float: none;
+    padding: 0em; }
+  /* line 284, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+  body.index a {
+    color: #e6e6e6;
+    text-decoration: none; }
+  /* line 289, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+  body.index p.cfgrjp {
+    text-align: center;
+    margin-bottom: 3em;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.4);
+    font-weight: bolder; }
+  /* line 296, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+  body.index div.home_box {
+    float: left;
+    width: 30.33%;
+    margin: 0px 1.4% 0px 1.4%;
+    background: rgba(255, 255, 240, 0.7);
+    background: -webkit-linear-gradient(top, rgba(255, 255, 240, 0.7) 0%, rgba(255, 255, 255, 0.4) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 240, 0.7) 0%, rgba(255, 255, 255, 0.4) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 240, 0.7) 0%, rgba(255, 255, 255, 0.4) 100%);
+    color: black;
+    min-width: 15em;
+    border-radius: 3px;
+    line-height: 1.3em;
+    box-shadow: 0px 0px 20px rgba(5, 5, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    box-sizing: border-box;
+    word-wrap: break-word; }
+    /* line 313, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+    body.index div.home_box a {
+      color: #050500; }
+    /* line 317, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+    body.index div.home_box > * {
+      margin-left: 1em;
+      margin-right: 1em; }
+    /* line 322, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+    body.index div.home_box h2 {
+      margin: 0em;
+      padding: 0.5em;
+      background: rgba(30, 40, 50, 0.8);
+      color: white;
+      font-size: 120%;
+      text-align: center;
+      text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5); }
+    /* line 332, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+    body.index div.home_box > h3 {
+      margin-top: 1em;
+      margin-bottom: 0.5em; }
+    /* line 337, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+    body.index div.home_box *.note {
+      font-size: smaller; }
+    /* line 341, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+    body.index div.home_box li {
+      margin-top: 0.3em; }
+  /* line 346, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+  body.index section {
+    padding: 0em;
+    margin-top: 3em;
+    border-top: 2px solid #333;
+    border-bottom: 1px solid black;
+    background: rgba(0, 0, 30, 0.5);
+    color: white;
+    box-shadow: 0px 0px 15px #000;
+    margin-bottom: 1em; }
+  /* line 357, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+  body.index section[role=main] {
+    padding: 2em; }
+  /* line 361, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+  body.index div.home_slides {
+    clear: both; }
+    /* line 364, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+    body.index div.home_slides h2 {
+      margin: 0px;
+      margin-bottom: 0.8em;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 0.8em; }
+    /* line 371, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+    body.index div.home_slides ul {
+      padding: 0em;
+      display: table;
+      margin-left: auto;
+      margin-right: auto; }
+    /* line 378, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+    body.index div.home_slides li {
+      display: table-cell;
+      padding: 0em 1em;
+      width: 342px; }
+  /* line 385, /home/kokubo/repos/cloudfoundry.gr.jp/source/stylesheets/all.css.scss */
+  body.index footer {
+    margin-top: 2em; }

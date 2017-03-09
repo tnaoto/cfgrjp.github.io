@@ -1,0 +1,99 @@
+# Site configuration
+# 1. Files excluded from Jekyll builds
+# 2. Installed Gems
+# 3. Gem settings
+# 4. Jekyll settings
+# 5. Collections
+# 6. Jekyll collections settings
+# 7. Site settings
+# 8. Site navigation
+
+# 1. Files excluded from Jekyll builds
+exclude:
+- README.md
+- screenshot.png
+- LICENSE
+- CNAME
+- Gemfile
+- Gemfile.lock
+- demo/*
+- alembic-jekyll-theme.gemspec
+
+# 2. Installed Gems
+gems:
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-feed
+- jemoji
+
+# 3. Gem settings
+paginate: 2 # jekyll-paginate > items per page
+paginate_path: blog/page:num # jekyll-paginate > blog page
+jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
+twitter:
+  username: CloudFoundry # jekyll-seo-tag > Owners twitter username
+author: CloudFoundry  # jekyll-seo-tag > default author
+social: # jekyll-seo-tag > social overrides
+  name: CloudFoundry # jekyll-seo-tag > real name
+  links:  # jekyll-seo-tag > social aliases (sameAs)
+    - https://twitter.com/cloudfoundry
+    - https://github.com/cloudfoundry
+
+# 4. Jekyll settings
+sass:
+  style: compressed # Style compression
+permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+excerpt_separator: <!-- more --> # Marks end of excerpt in posts
+timezone: Asia/TOKYO # Timezone for blog posts and alike
+
+# 6. Jekyll collections settings
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: page # Default layout
+      image: "/assets/placeholder-social.png" # Default image for sharing
+
+# 7. Site settings
+encoding: utf-8 # Make sure the encoding is right
+title: "日本Cloud Foundryグループ" # Site name or title, also used in jekyll-seo-tag
+logo: "/images/logo_small.png" # Site logo, also used in jekyll-seo-tag
+#description: "Alembic is a starting point for Jekyll projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately" # Site description and default description, also used in jekyll-seo-tag
+url: "http://cloudfoundry.gr.jp/" # Site url, also used in jekyll-seo-tag
+repo: "https://github.com/cfgrjp"
+email: "cfgrjp@googlegroups.com"
+#disqus: "alembic-1"
+#avatarurl: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
+
+# 8. Site navigation
+navigation_header:
+  Home: /
+#  Elements: /elements/
+  Blog: http://blog.cloudfoundry.gr.jp/
+#  Categories: /categories/
+#  Search: /search/
+#  Fork Alembic: https://github.com/daviddarnes/alembic
+
+#navigation_footer:
+#  Created by David Darnes: https://darn.es
+
+social_links:
+  Twitter: https://twitter.com/cloudfoundry
+  GitHub: https://github.com/cloudfoundry
+
+sharing_links:
+  Twitter: "#1DA1F2"
+  facebook: "#3B5998"
+  Google+: "#DC4E41"
+  Pinterest: "#BD081C"
+  LinkedIn: "#0077B5"
+  tumblr: "#36465D"
+  Reddit: "#FF4500"
+  Hacker News: "#ff6600"
+  Designer News: "#2D72D9"
+  Email: ""
